@@ -107,7 +107,6 @@ class _QuizPageState extends State<QuizPage> {
             ),
           ),
         ),
-        Wrap(children: iconList, alignment: WrapAlignment.center),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(15.0),
@@ -134,6 +133,7 @@ class _QuizPageState extends State<QuizPage> {
             ),
           ),
         ),
+        Wrap(children: iconList),
       ],
     );
   }
